@@ -6,5 +6,5 @@
 
 ## ダウンロード・インストール
 1. クローンする
-2. `HedgehogsBarrage.app`を開く  
-※もし、今後も使用していくのであれば、アプリケーションフォルダに`HedgehogsBarrage.app`を移動しておくと便利です。
+2. `HedgehogBarrage.app`を開く  
+※もし、今後も使用していくのであれば、アプリケーションフォルダに`HedgehogBarrage.app`を移動しておくと便利です。
