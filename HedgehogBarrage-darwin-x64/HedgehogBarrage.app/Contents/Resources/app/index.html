@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Hedgehogs Barrage</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="menu clearfix">
+    <div class="count">
+      <img class="icon" src="images/heart30×30.png">:&nbsp;&nbsp;<span id="heart_count">0</span>
+      <img class="icon" src="images/thumb30×30.png">:&nbsp;&nbsp;<span id="good_count">0</span>
+    </div>
+    <form id="comments" class="comments">
+      <p class="title">Comment</p>
+      <label>ON<input type="radio" name="comment" value="on" checked></label>
+      <label>OFF<input type="radio" name="comment" value="off"></label>
+    </form>
+  </div>
+
+    
+
+  <script>window.$ = window.jQuery = require('jquery');</script>
+  <script src="scripts/socket.io-1.7.3.js"></script>
+  <script src="scripts/content-script.js"></script>
+
+</body>
+</html>
