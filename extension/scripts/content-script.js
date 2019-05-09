@@ -94,7 +94,12 @@
     t.style.top = rand(window.innerHeight - t.offsetHeight) + 'px'
 
     t.animate(effect, timing).onfinish = function () {
-      // document.body.removeChild(t)
+      if (document.getElementsByClassName("punch-full-screen-element").length){
+        document.getElementsByClassName("punch-full-screen-element")[0].removeChild(t)
+      }
+      else{
+        document.body.removeChild(t)
+      }
     }
     console.log("comment")
   }
@@ -138,7 +143,12 @@
       timing.easing = msg.easing || 'ease'
 
       t.animate(effect, timing).onfinish = function () {
-        document.body.removeChild(t)
+        if (document.getElementsByClassName("punch-full-screen-element").length){
+          document.getElementsByClassName("punch-full-screen-element")[0].removeChild(t)
+        }
+        else{
+          document.body.removeChild(t)
+        }
       }
     })
 
